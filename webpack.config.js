@@ -19,6 +19,12 @@ module.exports = (env, argv) => {
         ]
       },
 
+      resolve: {
+        fallback: {
+          "buffer": false
+        }
+      },
+
       // TODO: figure out better source maps
       devtool: 'eval-cheap-source-map',
 
