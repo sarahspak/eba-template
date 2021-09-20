@@ -1,7 +1,7 @@
 import ReactDOM from "react-dom";
 import React, { useEffect, useMemo, useRef, useState } from "react";
 import { providers } from "ethers";
-import CustomStyle, { styleMetadata } from "./CustomStyle"
+import CustomStyle, { styleMetadata } from "./CustomStyle";
 const defaultParams = styleMetadata.options;
 
 const localBlocks = [
