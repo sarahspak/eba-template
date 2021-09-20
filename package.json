@@ -13,6 +13,7 @@
     "ethers": "^5.4.5",
     "gl-react": "^4.0.0",
     "gl-react-dom": "^5.1.0",
+    "gl-transitions": "^1.43.0",
     "mersenne-twister": "^1.1.0",
     "raf-throttle": "^2.0.5",
     "react": "^17.0.2",
