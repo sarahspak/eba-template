@@ -5,7 +5,7 @@ import hoistNonReactStatics from "hoist-non-react-statics";
 
 // NB this is only an utility for the examples
 export default (
-  C: ReactClass<*>,
+  C: React$ComponentType<*>,
   { refreshRate = 60 }: { refreshRate?: number } = {}
 ): ReactClass<*> => {
   class TL extends PureComponent {
